@@ -5,7 +5,7 @@ public class Example {
         moltiplicazione(6,5);
         concatenazione("ciao sono Alaa ed ho", 24  );
 
-        String nomi [] = {"Luca", "Mario", "Giuseppe", "Andrea", "Fabio"};
+
 
 
     }
@@ -17,6 +17,13 @@ public class Example {
     }
     public static void concatenazione(String string , int n3){
         System.out.println(string + " " + n3 + " "+ "anni");
+
+    }
+
+    public static void arrayInser (String[] nomi){
+
+        nomi = new String[]{"Luca", "Mario", "Giuseppe", "Andrea", "Fabio"};
+        System.out.println(nomi);
 
     }
 
