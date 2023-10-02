@@ -1,14 +1,20 @@
+import java.util.Arrays;
+
 public class Example {
     public static void main(String[] args) {
         System.out.println("hello");
 
         moltiplicazione(6,5);
         concatenazione("ciao sono Alaa ed ho", 24  );
+        String[] nomi = new String[]{"Luca", "Mario", "Giuseppe", "Andrea", "Fabio"};
+
 
 
 
 
     }
+
+
 
     public static void  moltiplicazione(int n1,int n2){
 
@@ -20,12 +26,7 @@ public class Example {
 
     }
 
-    public static void arrayInser (String[] nomi){
 
-        nomi = new String[]{"Luca", "Mario", "Giuseppe", "Andrea", "Fabio"};
-        System.out.println(nomi);
-
-    }
 
 
 
